@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6324,8 +6324,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <approved hash="202,1,175.26,104.14,U1,44,,,,"/>
 <approved hash="202,1,175.26,111.76,U1,47,,,,"/>
 <approved hash="104,1,175.26,116.84,U1,49,GND,,,"/>
-<approved hash="117,1,121.92,109.22,SCL,,,,,"/>
-<approved hash="117,1,121.92,111.76,SDA,,,,,"/>
 </errors>
 </schematic>
 </drawing>
