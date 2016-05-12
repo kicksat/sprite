@@ -5863,8 +5863,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <element name="R1" library="SparkFun" package="0603-RES" value="56K" x="27.8" y="11.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.135" y="11.615" size="0.6096" layer="25" rot="R180"/>
 </element>
-<element name="C2" library="SparkFun" package="0603-CAP" value="470nF" x="14.65" y="13.1" smashed="yes">
-<attribute name="NAME" x="11.465" y="12.885" size="0.6096" layer="25"/>
+<element name="C2" library="SparkFun" package="0603-CAP" value="470nF" x="14.1" y="12.25" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.315" y="9.065" size="0.6096" layer="25" rot="R90"/>
 </element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="470nF" x="13.55" y="6.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.185" y="7.365" size="0.6096" layer="25" rot="R180"/>
@@ -6087,7 +6087,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="P2" pad="PIN"/>
 <wire x1="31.2" y1="18.2" x2="32.8" y2="18.2" width="0.4064" layer="1"/>
 <wire x1="32.8" y1="18.2" x2="33.5" y2="17.5" width="0.4064" layer="1"/>
-<wire x1="16.9" y1="13.1" x2="15.5" y2="13.1" width="0" layer="19" extent="1-16"/>
+<wire x1="14.1" y1="13.1" x2="17.1" y2="13.1" width="0.254" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U1" pad="33"/>
