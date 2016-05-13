@@ -2426,7 +2426,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="GND8" gate="1" x="226.06" y="43.18"/>
 <instance part="P+2" gate="1" x="193.04" y="106.68"/>
 <instance part="JP2" gate="G$1" x="248.92" y="93.98" rot="R180"/>
-<instance part="GND16" gate="1" x="134.62" y="134.62"/>
+<instance part="GND16" gate="1" x="134.62" y="132.08"/>
 <instance part="P+4" gate="1" x="134.62" y="144.78"/>
 <instance part="ANT-N" gate="G$1" x="231.14" y="76.2"/>
 <instance part="ANT-P" gate="G$1" x="246.38" y="76.2"/>
@@ -2449,8 +2449,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="JP3" gate="G$1" x="167.64" y="142.24" rot="MR180"/>
 <instance part="X1" gate="G$1" x="241.3" y="50.8" rot="MR0"/>
 <instance part="P+11" gate="1" x="251.46" y="48.26"/>
-<instance part="P1" gate="G$1" x="121.92" y="144.78"/>
-<instance part="P2" gate="G$1" x="121.92" y="137.16"/>
+<instance part="P1" gate="G$1" x="121.92" y="134.62"/>
+<instance part="P2" gate="G$1" x="121.92" y="144.78"/>
 <instance part="S1" gate="G$1" x="340.36" y="93.98" rot="R90"/>
 <instance part="S2" gate="G$1" x="355.6" y="93.98" rot="R90"/>
 <instance part="S3" gate="G$1" x="370.84" y="93.98" rot="R90"/>
@@ -2518,11 +2518,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="251.46" y1="45.72" x2="251.46" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+4" gate="1" pin="VCC"/>
-<wire x1="134.62" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="P1" gate="G$1" pin="PIN"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="34"/>
 <wire x1="175.26" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="78.74" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
@@ -2575,6 +2570,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="289.56" y1="144.78" x2="261.62" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="144.78" x2="261.62" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="P2" gate="G$1" pin="PIN"/>
+<pinref part="P+4" gate="1" pin="VCC"/>
+<wire x1="127" y1="144.78" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2640,11 +2640,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="370.84" y="81.28"/>
 </segment>
 <segment>
-<pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="134.62" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="P2" gate="G$1" pin="PIN"/>
-</segment>
-<segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 </segment>
@@ -2675,6 +2670,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="129.54" x2="261.62" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="PIN"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="127" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
