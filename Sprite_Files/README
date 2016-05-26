@@ -8,5 +8,5 @@ Sprite 3 Fab/Assembly Notes:
 
 2. Solar cells must be reflow soldered on both sides (2 per side, 4 cells total)
 
-3. Zero ohm 0805 resistors must be soldered to connect top pad on solar cell to the board. These resistors (R3,R4,R5,R7) are in the BOM but are not included in the centroid files (since our layout software doesn't support this sort of thing). Please have a look at the attached picture (Sprite_Solar_Cells.jpg) to see how they are supposed to be mounted.
+3. Zero ohm 0805 resistors must be soldered to connect the top pads on the solar cells to the board. These resistors (R3,R4,R6,R7) are in the BOM but are not included in the centroid files (since our layout software doesn't support this sort of thing). Please have a look at the attached picture (Sprite_Solar_Cells.jpg) to see how they are supposed to be mounted.
 
