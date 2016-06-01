@@ -5588,17 +5588,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 <library name="TriSolX_QzQube">
 <packages>
 <package name="TRISOLX-T01">
-<wire x1="0.25" y1="-0.25" x2="-27.1" y2="-0.25" width="0.1524" layer="51"/>
-<wire x1="0.25" y1="-0.25" x2="0.25" y2="10.25" width="0.1524" layer="51"/>
-<wire x1="0.25" y1="10.25" x2="-20.6" y2="6.25" width="0.1524" layer="51" curve="24.043131"/>
-<wire x1="-20.6" y1="6.25" x2="-27.1" y2="-0.25" width="0.1524" layer="51"/>
+<wire x1="0.25" y1="-0.25" x2="-27.277" y2="-0.249" width="0.127" layer="51"/>
+<wire x1="0.25" y1="-0.25" x2="0.25" y2="10.25" width="0.127" layer="51"/>
+<wire x1="0.25" y1="10.25" x2="-21.671" y2="5.326" width="0.127" layer="51" curve="25.5"/>
+<wire x1="-21.671" y1="5.326" x2="-27.277" y2="-0.249" width="0.127" layer="51"/>
 <smd name="P$2" x="-2" y="5" dx="3.81" dy="1.9304" layer="1" thermals="no"/>
 <smd name="P$3" x="1.1" y="3.5" dx="1" dy="1.5" layer="1"/>
-<polygon width="0.1524" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="-26.5" y="0"/>
-<vertex x="-20.45" y="6.05" curve="-24.043131"/>
-<vertex x="0" y="10"/>
+<polygon width="0.254" layer="1">
+<vertex x="-0.127" y="0.127"/>
+<vertex x="-26.373" y="0.127"/>
+<vertex x="-21.418" y="5.065" curve="-25"/>
+<vertex x="-0.127" y="9.873"/>
 </polygon>
 <polygon width="0.3048" layer="29">
 <vertex x="0" y="0"/>
