@@ -1,5 +1,8 @@
 # Ignore list for Eagle, a PCB layout tool
 
+#macOS junk
+*.DS_Store
+
 # Backup files
 *.s#?
 *.b#?
