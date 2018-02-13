@@ -1,7 +1,6 @@
 [Eagle]
-Version="06 01 00"
+Version="08 06 01"
 Platform="Mac OS X"
-Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -13,13 +12,12 @@ UsedLibrary="lbr/SpriteAntenna.lbr"
 UsedLibrary="lbr/TASC.lbr"
 UsedLibrary="lbr/TI_MSP430_v16.lbr"
 UsedLibrary="lbr/TI_launchpad.lbr"
+UsedLibrary="lbr/FastCap.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="223 129 822 528"
-State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="1440 900"
 Window="Win_1"
