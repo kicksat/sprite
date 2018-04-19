@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12,6 +12,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2199,57 +2209,34 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </deviceset>
 </devicesets>
 </library>
-<library name="FastCap">
+<library name="UMAC">
 <packages>
-<package name="FASTCAP">
-<wire x1="-4" y1="5.5" x2="4" y2="5.5" width="0.127" layer="21"/>
-<wire x1="4" y1="5.5" x2="4" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="4" y1="-5.5" x2="-4" y2="-5.5" width="0.127" layer="21"/>
-<wire x1="-4" y1="-5.5" x2="-4" y2="5.5" width="0.127" layer="21"/>
-<smd name="P11" x="0" y="0" dx="5.5" dy="3" layer="1" rot="R90"/>
-<smd name="P1" x="3.175" y="2.54" dx="2" dy="1.2" layer="1" rot="R180"/>
-<smd name="P2" x="3.175" y="0" dx="2" dy="1.2" layer="1" rot="R180"/>
-<smd name="P3" x="3.175" y="-2.54" dx="2" dy="1.2" layer="1" rot="R180"/>
-<smd name="P8" x="-3.175" y="2.54" dx="2" dy="1.2" layer="1"/>
-<smd name="P7" x="-3.175" y="0" dx="2" dy="1.2" layer="1"/>
-<smd name="P6" x="-3.175" y="-2.54" dx="2" dy="1.2" layer="1"/>
-<smd name="P9" x="-1.27" y="4.675" dx="2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P10" x="1.27" y="4.675" dx="2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P5" x="-1.27" y="-4.675" dx="2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P4" x="1.27" y="-4.675" dx="2" dy="1.2" layer="1" rot="R90"/>
-<smd name="P12" x="3.5" y="5" dx="1.2" dy="1.2" layer="1"/>
-<smd name="P15" x="-3.5" y="5" dx="1.2" dy="1.2" layer="1"/>
-<smd name="P14" x="-3.5" y="-5" dx="1.2" dy="1.2" layer="1"/>
-<smd name="P13" x="3.5" y="-5" dx="1.2" dy="1.2" layer="1"/>
-<circle x="5.5" y="6.5" radius="0.3" width="0.6" layer="22"/>
-<text x="6" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="6" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<package name="UMAC">
+<pad name="V+" x="2.5" y="1" drill="0.5"/>
+<pad name="V-" x="2.5" y="-1" drill="0.5"/>
+<rectangle x1="-12" y1="-2" x2="0" y2="2" layer="21"/>
+<text x="0.6" y="0.4" size="1.27" layer="21">+</text>
 </package>
 </packages>
 <symbols>
-<symbol name="FASTCAP">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<symbol name="UMAC">
+<pin name="V+" x="0" y="7.62" length="middle" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-7.62" length="middle" direction="pwr" rot="R90"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FASTCAP">
+<deviceset name="UMAC">
 <gates>
-<gate name="G$1" symbol="FASTCAP" x="0" y="0"/>
+<gate name="G$1" symbol="UMAC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FASTCAP">
+<device name="" package="UMAC">
 <connects>
-<connect gate="G$1" pin="+" pad="P1 P2 P3 P4 P10"/>
-<connect gate="G$1" pin="-" pad="P5 P6 P7 P8 P9 P11"/>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2313,9 +2300,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="X1" library="SpriteTCXO" deviceset="TCXO_7Z" device="" value="TCXO_7Z"/>
 <part name="P+11" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$1" library="FastCap" deviceset="FASTCAP" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
+<part name="U$1" library="UMAC" deviceset="UMAC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2366,9 +2353,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="X1" gate="G$1" x="121.92" y="-2.54" rot="MR0"/>
 <instance part="P+11" gate="1" x="132.08" y="-5.08"/>
 <instance part="GND7" gate="1" x="86.36" y="20.32"/>
-<instance part="U$1" gate="G$1" x="157.48" y="20.32"/>
-<instance part="P+3" gate="1" x="157.48" y="25.4"/>
-<instance part="GND9" gate="1" x="157.48" y="10.16"/>
+<instance part="P+3" gate="1" x="152.4" y="27.94"/>
+<instance part="GND9" gate="1" x="152.4" y="5.08"/>
+<instance part="U$1" gate="G$1" x="152.4" y="17.78"/>
 </instances>
 <busses>
 </busses>
@@ -2445,9 +2432,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="5.08" y="43.18"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="+"/>
+<pinref part="U$1" gate="G$1" pin="V+"/>
 <pinref part="P+3" gate="1" pin="VCC"/>
-<wire x1="157.48" y1="22.86" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="25.4" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2522,8 +2509,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="-"/>
-<wire x1="157.48" y1="12.7" x2="157.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="V-"/>
+<wire x1="152.4" y1="7.62" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
