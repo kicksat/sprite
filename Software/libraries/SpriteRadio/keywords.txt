@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SpriteRadio			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setPower			KEYWORD2
+transmit			KEYWORD2
+radioInit			KEYWORD2
+radioSleep			KEYWORD2

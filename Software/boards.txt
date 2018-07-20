@@ -1,0 +1,27 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.rfloader=Wireless bootloader
+
+##############################################################
+sprite2.name=Sprite 2
+sprite2.build.core=sprite
+sprite2.upload.tool=ti-bsl
+sprite2.upload.protocol=ti-bsl
+sprite2.upload.maximum_size=32640
+sprite2.build.mcu=cc430f5137
+sprite2.build.f_cpu=8000000L
+sprite2.build.variant=sprite_2.0
+sprite2.build.board=SPRITE
+
+sprite2.ldscript=ldscript
+
+## With serial bootloader only
+##------------------------------------------------------------
+sprite2.menu.rfloader.disabled=off
+sprite2.menu.rfloader.disabled.ldscript=ldscript
+
+## With serial and wireless bootloader
+##------------------------------------------------------------
+sprite2.menu.rfloader.enabled=on
+sprite2.menu.rfloader.enabled.ldscript=ldscript_rf
+
