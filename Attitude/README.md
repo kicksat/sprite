@@ -1,1 +1,0 @@
-# Attitude-Sprite
