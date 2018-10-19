@@ -36,3 +36,4 @@ eagle.epf
 *.eps
 
 ~$*
+*.DS_Store
